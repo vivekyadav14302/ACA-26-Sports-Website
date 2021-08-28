@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPL Results</title>
+  <link rel="stylesheet" href="css/iplresult.css">
+</head>
+</head>
+<body>
+  <!-- Navigation Bar with menu items -->
+ <div id="navbar">
+  <div class="navbar">
+      <a href="index.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Home
+        </a>
+      <a href="timeline.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Timeline
+        </a>
+      <a href="iplresults.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          IPL Results
+        </a>
+      </div>
+</div>
+<div class="regform">
+  <h1>IPL Result Check</h1>
+</div>
+
+<!-- Main form -->
+<div class="main">
+  <form id="sportForm">
+    <!-- input elements of the form -->
+   
+    <h2 class="year" style="color: white;width: 25%; margin-top: 5%;">Please Select a year: </h2>
+    <select style="width: 22%;" name="year" id="year">
+        <option>Select Here</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+    </select>
+
+  <input type="submit" id="submit" >
+  <div style="margin-top: 15%;">
+    <h3 style="color:yellow; width: 110%;"><span id="result1"></span><br></h3>
+    <h3 style="color:rgb(0, 255, 0); width: 110%;"><span id="result2"></span><br></h3>
+    <h3 style="color:rgb(0, 255, 255); width: 110%;"><span id="result3"></span><br></h3>
+    <h3 style="color:rgb(255, 251, 0); width: 110%;"><span id="result4"></span><br></h3>
+    <h3 style="color:white; width: 110%;"><span id="result5"></span><br></h3>
+    <h3 style="color:rgb(30, 255, 0); width: 110%;"><span id="result6"></span><br></h3>
+    <h3 style="color:rgb(0, 255, 255); width: 110%;"><span id="result7"></span><br></h3>
+    <h3 style="color:rgb(255, 251, 0); width: 110%;"><span id="result8"></span><br></h3>
+  </div>
+</div>
+
+
+</form>
+
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+<script src="scripts/database_con.js"></script>
+</body>
+</html>
+
